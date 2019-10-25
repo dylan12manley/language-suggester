@@ -6,19 +6,19 @@
 
 ## Description
 
-_This is webpage that will take info inputted into a form and return a result._
+_This is a webpage ask multiple questions in attempt to screen the user for programing potential. When questions are answered and submitted, it will respond with a programing language selection_
 
 ## Setup/Installation Requirements
 
 * _Click the clone or download button and copy the link_
-* _open your terminal and type "git clone (link)"_
+* _Open your terminal and type "git clone (link)"_
 * _Double click on the language-selector folder_
 * _Double click on index.html to open the file in a web browser_
 
 
 ## Known Bugs
 
-_None_
+_The Javascript fails to compile the answers, the result when pressing the submit button is only dependent on the first question_
 
 ## Support and contact details
 

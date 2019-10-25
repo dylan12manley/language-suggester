@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   $("form#suggester").submit(function(event) {
     event.preventDefault();
-    var answer = parseInt($("number1 + number2 + number3 + number4 + number5"));
+
     console.log("answer", answer)
 
     var number1 = parseInt($("select#experience").val());
@@ -14,6 +14,8 @@ $( document ).ready(function() {
     console.log("number3", number3)
     console.log("number4", number4)
     console.log("number5", number5)
+
+    var answer = parseInt(number1 + number2 + number3 + number4 + number5);
 
     if (number1 === 1){
       $("#html").show();
