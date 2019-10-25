@@ -18,7 +18,7 @@ _This is a webpage ask multiple questions in attempt to screen the user for prog
 
 ## Known Bugs
 
-_The Javascript fails to compile the answers, the result when pressing the submit button is only dependent on the first question_
+_None_
 
 ## Support and contact details
 

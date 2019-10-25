@@ -2,8 +2,6 @@ $( document ).ready(function() {
   $("form#suggester").submit(function(event) {
     event.preventDefault();
 
-    console.log("answer", answer)
-
     var number1 = parseInt($("select#experience").val());
     var number2 = parseInt($("select#frontOrBack").val());
     var number3 = parseInt($("select#jobOrSkill").val());
@@ -16,20 +14,21 @@ $( document ).ready(function() {
     console.log("number5", number5)
 
     var answer = parseInt(number1 + number2 + number3 + number4 + number5);
+    console.log("answer", answer)
 
-    if (number1 === 1){
+    if (answer === 5){
       $("#html").show();
       $("#javascript").hide();
       $("#react").hide();
       $("#ruby").hide();
     }
-    else if (number1 === 10){
+    else if (answer <= 50){
       $("#javascript").show();
       $("#html").hide();
       $("#react").hide();
       $("#ruby").hide();
     }
-    else if (number1 === 100){
+    else if (answer <= 500){
       $("#javascript").hide();
       $("#html").hide();
       $("#react").hide();
