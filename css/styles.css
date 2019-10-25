@@ -1,3 +1,9 @@
+body {
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+header{
+  margin-top: 20px;
+}
 #html, #javascript, #ruby, #react {
   display: none;
 }
@@ -5,6 +11,7 @@ button.btn {
   display: inline-block;
   background-color: red;
   margin-left: 75%;
+  margin-bottom: 30px;
 }
 .question{
   padding-top: 20px;
