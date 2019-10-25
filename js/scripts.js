@@ -1,12 +1,20 @@
 $( document ).ready(function() {
   $("form#suggester").submit(function(event) {
     event.preventDefault();
+    var answer = parseInt($("number1 + number2 + number3 + number4 + number5"));
+    console.log("answer", answer)
+
     var number1 = parseInt($("select#experience").val());
     var number2 = parseInt($("select#frontOrBack").val());
     var number3 = parseInt($("select#jobOrSkill").val());
     var number4 = parseInt($("select#learn").val());
     var number5 = parseInt($("select#nerd").val());
     console.log("number1", number1)
+    console.log("number2", number2)
+    console.log("number3", number3)
+    console.log("number4", number4)
+    console.log("number5", number5)
+
     if (number1 === 1){
       $("#html").show();
       $("#javascript").hide();
