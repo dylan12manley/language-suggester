@@ -2,5 +2,10 @@
   display: none;
 }
 button.btn {
+  display: inline-block;
   background-color: red;
+  margin-left: 75%;
+}
+.question{
+  padding-top: 20px;
 }
