@@ -1,3 +1,6 @@
 #html, #javascript, #ruby, #react {
   display: none;
 }
+button.btn {
+  background-color: red;
+}
