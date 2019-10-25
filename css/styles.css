@@ -7,11 +7,13 @@ header{
 #html, #javascript, #ruby, #react {
   display: none;
 }
+
 button.btn {
   display: inline-block;
   background-color: red;
   margin-left: 75%;
   margin-bottom: 30px;
+  margin-top: 15px;
 }
 .question{
   padding-top: 20px;

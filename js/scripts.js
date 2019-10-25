@@ -5,7 +5,7 @@ $( document ).ready(function() {
   var number4 = parseInt()
   var number5 = parseInt()
 
-  var sel = document.getElementById('scripts');
+  // var sel = document.getElementById('scripts');
 
   // display value property of select list (from selected option)
   // console.log( sel.value );
