@@ -1,9 +1,9 @@
 $( document ).ready(function() {
-  var number1 = parseInt()
-  var number2 = parseInt()
-  var number3 = parseInt()
-  var number4 = parseInt()
-  var number5 = parseInt()
+  $("form#suggester").submit(function(event) {
+    event.preventDefault();
+    var number1 = parseInt($("option#experience").val());
+    console.log("number1", number1)
+  });
 
   // var sel = document.getElementById('scripts');
 
