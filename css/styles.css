@@ -16,6 +16,8 @@ button.btn {
   margin-left: 75%;
   margin-bottom: 30px;
   margin-top: 15px;
+  text-shadow: 1px 1px 2px aquamarine, 0 0 1em aquamarine, 0 0 0.2em aquamarine;
+  font-weight: bold;
 }
 .question{
   padding-top: 20px;

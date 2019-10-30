@@ -16,29 +16,19 @@ $( document ).ready(function() {
     var answer = parseInt(number1 + number2 + number3 + number4 + number5);
     console.log("answer", answer)
 
+    $("#javascript, #html, #react, #ruby").hide();
+
     if (answer === 5){
       $("#html").show();
-      $("#javascript").hide();
-      $("#react").hide();
-      $("#ruby").hide();
     }
     else if (answer <= 50){
       $("#javascript").show();
-      $("#html").hide();
-      $("#react").hide();
-      $("#ruby").hide();
     }
     else if (answer <= 500){
-      $("#javascript").hide();
-      $("#html").hide();
-      $("#react").hide();
       $("#ruby").show();
     }
     else {
       $("#react").show();
-      $("#javascript").hide();
-      $("#html").hide();
-      $("#ruby").hide();
     }
   });
 
